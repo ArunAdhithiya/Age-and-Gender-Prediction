@@ -4,7 +4,7 @@ from prediction import getAgeGender
 app = Flask(__name__)
 
 
-mediaDir = "./static/uploaded/"
+mediaDir = "./static/images/"
 
 
 @app.route("/", methods = ['GET'])
@@ -24,6 +24,7 @@ def predict():
         f = request.files['upload']
         if f.filename != "":
             image_path = mediaDir+f.filename
+            image_path=image_path[2:]
             uploaded_file_path = "uploaded/"+f.filename
             f.save(image_path)
             age, gender = getAgeGender(image_path)
