@@ -8,12 +8,12 @@ Age and Gender prediction is a simple flask application which can be used to rec
 
 ### Training of the Model:
 
-1. You can see the code for training the model in this [notebook](https://github.com/muskanmi/Age-and-Gender-Prediction/blob/master/training/age-gender-training.ipynb).
+1. You can see the code for training the model in this [notebook](https://github.com/ArunAdhithiya/Age-and-Gender-Prediction/blob/master/training/age-gender-training.ipynb).
 
-2. Before running the code for training the model, you need to have the **dataset** downloaded and placed inside the [training](https://github.com/muskanmi/Age-and-Gender-Prediction/tree/master/training) folder.  
+2. Before running the code for training the model, you need to have the **dataset** downloaded and placed inside the [training](https://github.com/ArunAdhithiya/Age-and-Gender-Prediction/tree/master/training) folder.  
 You can download the dataset from Kaggle present [here](https://www.kaggle.com/datasets/jangedoo/utkface-new).
 
-3. This repository also consists of already trained weights for this model which you can find [here](https://github.com/muskanmi/Age-and-Gender-Prediction/blob/master/src/data.h5).
+3. This repository also consists of already trained weights for this model which you can find [here](https://github.com/ArunAdhithiya/Age-and-Gender-Prediction/blob/master/src/data.h5).
 
 
 ### Running the application:
@@ -21,7 +21,7 @@ You can download the dataset from Kaggle present [here](https://www.kaggle.com/d
 1. Get the source code on your pc via git.
 
 ```shell
-  git clone https://github.com/muskanmi/Age-and-Gender-Prediction.git
+  git clone https://github.com/ArunAdhithiya/Age-and-Gender-Prediction.git
 ```
 
 2. Create a virtual environment to install the required dependencies of the application.
